@@ -3,19 +3,20 @@ import { NgModule, CUSTOM_ELEMENTS_SCHEMA } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import {RevealingPasswordInputComponent} from "./components/revealing-password-input/revealing-password-input";
 
-import { MyProvider } from './providers/my-provider';
+import {IonicModule} from "ionic-angular";
 
 
 @NgModule({
   declarations: [
-    RevealingPasswordInputComponent
+    RevealingPasswordInputComponent,
   ],
-  providers: [ MyProvider ],
+  providers: [  ],
   exports: [
-    RevealingPasswordInputComponent
+    RevealingPasswordInputComponent,
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    IonicModule
   ],
   schemas: [
     CUSTOM_ELEMENTS_SCHEMA

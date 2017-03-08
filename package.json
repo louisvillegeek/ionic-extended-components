@@ -1,6 +1,6 @@
 {
   "name": "ionic-extended-components",
-  "version": "0.0.1",
+  "version": "0.0.4",
   "description": "A set of extended components for ionic",
   "main": "./dist/index.js",
   "typings": "./dist/index.d.ts",
@@ -12,7 +12,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jasekiw/ionic-extended-components.git"
+    "url": "git+https://github.com/louisvillegeek/ionic-extended-components.git"
   },
   "keywords": [
     "ionic",
@@ -21,9 +21,9 @@
   ],
   "author": "Jason Gallavin <jasongallavin@gmail.com>",
   "bugs": {
-    "url": "https://github.com/jasekiw/ionic-extended-components/issues"
+    "url": "https://github.com/louisvillegeek/ionic-extended-components/issues"
   },
-  "homepage": "https://github.com/jasekiw/ionic-extended-components#readme",
+  "homepage": "https://github.com/louisvillegeek/ionic-extended-components#readme",
   "devDependencies": {
     "@angular/common": "^2.1.1",
     "@angular/compiler": "^2.1.1",
